@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "record:scenarios": "npx playwright codegen letcode.in"
   },
   "keywords": [],
   "author": "",
@@ -30,5 +31,8 @@
       "node"
     ],
     "testTimeout": 120000
+  },
+  "dependencies": {
+    "@playwright/test": "^1.26.1"
   }
 }
